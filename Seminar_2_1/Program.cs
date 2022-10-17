@@ -5,10 +5,10 @@
 */
 
 Console.WriteLine("Введите число А");
-int a = Convert.ToInt32(Console.ReadLine());
+double a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите число B");
-int b = Convert.ToInt32(Console.ReadLine());
+double b = Convert.ToInt32(Console.ReadLine());
  
 // int result = a % b;
 
@@ -19,5 +19,18 @@ if (a % b == 0)
 }
 else
 {
-    Console.WriteLine($"число не кратно {a % b}");
+    Console.WriteLine($"число не кратно, остаток = {a % b}");
 }
+
+/*
+Console.WriteLine("Введите число А");
+int a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите число B");
+int b = Convert.ToInt32(Console.ReadLine());
+ 
+double result = (double)a /(double) b;
+Console.WriteLine($" число {result}");
+
+Console.WriteLine($"остаток деления {a % b}");
+*/
