@@ -5,10 +5,10 @@
 */
 
 Console.WriteLine("Введите число А");
-double a = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите число B");
-double b = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
  
 // int result = a % b;
 
