@@ -1,0 +1,30 @@
+﻿/*
+Задача 26: Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
+456 -> 3
+78 -> 2
+89126 -> 5
+
+
+Console.Write("Введите число: ");
+
+int number = Convert.ToInt32(Console.ReadLine());
+number = Math.Abs(number);
+
+int dlina = number.ToString().Length;
+ Console.Write(dlina);
+ */
+
+
+/* Задача 28: Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
+4 -> 24 
+5 -> 120 */
+
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int mult = 1;
+for (int i = 1; i <= number; i++)
+{
+    mult = mult * i;
+}
+Console.Write(mult);
