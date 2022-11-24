@@ -4,16 +4,10 @@
 
 //  int[] array = new int[6] {6, 7, 19, 345, 3, 778};
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
  
 namespace ConsoleApplication3
 {
-    class Program
-    {
-        static void Main(string[] args)
+    static void Main(string[] args)
         {
             int chislo, n, c = 0;
             string s;
@@ -50,5 +44,5 @@ namespace ConsoleApplication3
             }
             Console.ReadKey();
         }
-    }
+    
 }
