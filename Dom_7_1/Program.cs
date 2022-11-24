@@ -42,7 +42,7 @@ for (int i = 0; i < m; i++)
   {
       for (int j = 0; j < n; j++)
       {
-        double alignNumber = Math.Round(array[i, j], 1);
+        double alignNumber = Math.Round(array[i, j], 2);
         Console.Write(alignNumber + " ");
       }
       Console.WriteLine();
